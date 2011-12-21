@@ -1,0 +1,53 @@
+html {
+  height:100%;
+}
+body {
+  text-align:center;
+  font:1.2em 'Inconsolata', Helvetica;
+  padding:4em 0 0 0;
+  margin:0;
+}
+div {
+  padding:2em 0;
+  background-color:#fff;
+}
+p {
+  font-size:1.4em;
+}
+a {
+  padding:0.2em;
+  text-decoration:none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+a:hover {
+  background-color:#00e;
+  color:#fff;
+}
+a.mail:before {
+  content:'<';
+}
+a.mail:after {
+  content:'>';
+}
+ul {
+  padding:0;
+}
+li {
+  display:inline;
+}
+li:before {
+    content: '• ';
+}
+li:first-child:before {
+    content: '';
+}
+p#footer {
+  color:#fff;
+  font-size:2em;
+  position:absolute;
+  margin:0;
+  bottom:1em;
+  left:1em;
+}
