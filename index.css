@@ -25,6 +25,10 @@ a:hover {
   background-color:#00e;
   color:#fff;
 }
+li.disabled span {
+  text-decoration:line-through;
+  color:#00e;
+}
 a.mail:before {
   content:'<';
 }
